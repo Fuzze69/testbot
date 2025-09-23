@@ -1,5 +1,6 @@
 package tutorial;
 
+//класс конфигурации, хранит имя и токен
 public class BotConfig {
     private final String botUsername;
     private final String botToken;

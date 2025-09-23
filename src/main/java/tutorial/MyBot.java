@@ -8,6 +8,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import java.util.ArrayList;
 import java.util.List;
 
+//Основной класс телеграмм бота, наследуется от TelegramLongPollingBot
 public class MyBot extends TelegramLongPollingBot {
 
     private final BotConfig config;
@@ -29,6 +30,7 @@ public class MyBot extends TelegramLongPollingBot {
         return config.getBotToken();
     }
 
+    //Метод, вызывающийся, когда бот получает сообщение
     @Override
     public void onUpdateReceived(Update update) {
         if (update.hasMessage() && update.getMessage().hasText()) {

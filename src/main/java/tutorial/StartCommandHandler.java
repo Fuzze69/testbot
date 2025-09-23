@@ -2,6 +2,7 @@ package tutorial;
 
 import org.telegram.telegrambots.meta.api.objects.Update;
 
+//Обработчик команды /start
 public class StartCommandHandler implements BotCommandHandler {
 
     @Override

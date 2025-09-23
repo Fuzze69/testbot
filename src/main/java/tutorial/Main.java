@@ -3,6 +3,7 @@ package tutorial;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
+// Главный класс приложения, запускает телеграмм бота
 public class Main {
     public static void main(String[] args) {
         try {
